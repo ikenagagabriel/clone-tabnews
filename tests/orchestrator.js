@@ -19,6 +19,8 @@ async function waiForAllServices() {
   }
 }
 
-export default {
+const orchestrator = {
   waiForAllServices,
 };
+
+export default orchestrator;
